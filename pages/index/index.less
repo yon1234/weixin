@@ -1,0 +1,61 @@
+// 轮播图样式
+swiper {
+  height: 340rpx;
+
+  image {
+    height: 340rpx;
+    width: 100%
+  }
+
+  ;
+}
+
+// 导航样式
+.navBox {
+  display: flex;
+
+  .nav {
+    flex: 1;
+    padding: 20rpx;
+
+    image {
+      width: 100%;
+    }
+  }
+}
+
+// 232  386
+
+// 750rpx 
+// 33.33
+// 商品楼层 样式
+.productBox {
+  padding: 20rpx;
+  .productTitle{
+    height: 80rpx;
+    .title{
+      height: 100%;
+      image{
+        height: 100%;
+      }
+    }
+  }
+  .productList {
+    overflow: hidden;
+
+    .product {
+      float: left;
+      width: 33.33%;
+      padding: 5rpx;
+      height: calc(386*33.33vw/232);
+      &:nth-last-child(-n+4) {
+        height:calc(386*33.33vw/232/2);
+      }
+      box-sizing: border-box;
+      image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

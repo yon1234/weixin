@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "searchInput": "../../components/searchInput/searchInput",
+    "tabs": "../../components/tabs/tabs",
+    "e-goods-list":"../../components/goods_list/goods_list"
+  },
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle": "dark"
+
+}

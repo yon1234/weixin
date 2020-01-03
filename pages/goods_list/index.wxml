@@ -1,0 +1,10 @@
+<!-- pages/goods_list/index.wxml -->
+<view>
+  <searchInput></searchInput>
+  <tabs catchitemtap='change' items='{{ item }}' selectColor='#455488'></tabs>
+  <view class="content">
+    <navigator class="" target="" wx:for="{{GoodsData}}" url="/pages/goods_detail/index?cid={{item.goods_id}}" hover-class="navigator-hover" open-type="navigate" wx:key="goods_id">
+      <e-goods-list src='{{item.goods_big_logo}}' title='{{item.goods_name}}' theme='longLine' price='￥{{item.goods_price}}'></e-goods-list>
+    </navigator>
+  </view>
+</view>

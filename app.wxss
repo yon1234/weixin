@@ -1,0 +1,8 @@
+/**app.wxss**/
+
+@import './styles/icon.wxss';
+
+page,view,input,text,image,navigator,form{
+  margin:0;
+  padding:0;
+}

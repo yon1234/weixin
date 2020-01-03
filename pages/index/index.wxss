@@ -1,0 +1,46 @@
+swiper {
+  height: 340rpx;
+}
+swiper image {
+  height: 340rpx;
+  width: 100%;
+}
+.navBox {
+  display: flex;
+}
+.navBox .nav {
+  flex: 1;
+  padding: 20rpx;
+}
+.navBox .nav image {
+  width: 100%;
+}
+.productBox {
+  padding: 20rpx;
+}
+.productBox .productTitle {
+  height: 80rpx;
+}
+.productBox .productTitle .title {
+  height: 100%;
+}
+.productBox .productTitle .title image {
+  height: 100%;
+}
+.productBox .productList {
+  overflow: hidden;
+}
+.productBox .productList .product {
+  float: left;
+  width: 33.33%;
+  padding: 5rpx;
+  height: calc(386*33.33vw/232);
+  box-sizing: border-box;
+}
+.productBox .productList .product:nth-last-child(-n+4) {
+  height: calc(386*33.33vw/232/2);
+}
+.productBox .productList .product image {
+  width: 100%;
+  height: 100%;
+}

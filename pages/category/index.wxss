@@ -1,0 +1,65 @@
+/* pages/category/index.wxss */
+page {
+  height: 100%;
+}
+.category {
+  display: flex;
+}
+.category .categoryLeft {
+  flex: 2;
+}
+.category .categoryLeft .scroll-view {
+  width: 100%;
+  height: 1400rpx;
+}
+.category .categoryLeft view {
+  width: 100%;
+  height: 60rpx;
+  border: 1px solid #e9e6e6;
+  line-height: 60rpx;
+  background-color: #f7f6f5;
+  text-align: center;
+}
+.category .categoryLeft .active {
+  border-left: 5rpx solid #ed4450;
+  background-color: white;
+}
+.category .categoryRight {
+  flex: 5;
+}
+.category .categoryRight .scroll-view {
+  width: 100%;
+  height: 1400rpx;
+}
+.category .categoryRight .scroll-view .scroll-view-item {
+  margin: 10px 0;
+  width: 100%;
+}
+.category .categoryRight .scroll-view .scroll-view-item .title {
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+.category .categoryRight .scroll-view .scroll-view-item .title .cat_name {
+  padding: 30rpx;
+}
+.category .categoryRight .scroll-view .scroll-view-item .cat_icon {
+  overflow: hidden;
+}
+.category .categoryRight .scroll-view .scroll-view-item .cat_icon navigator {
+  float: left;
+  width: 33.33%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.category .categoryRight .scroll-view .scroll-view-item .cat_icon navigator image {
+  width: 80%;
+}
+.category .categoryRight .scroll-view .scroll-view-item .cat_icon navigator text {
+  padding: 10rpx 0;
+  font-size: 24rpx;
+  text-align: center;
+}
